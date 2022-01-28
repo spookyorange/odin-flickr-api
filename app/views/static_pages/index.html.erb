@@ -1,0 +1,13 @@
+<h1>Welcome</h1>
+
+<%= form_with method: :get do |form| %>
+  <%= form.label :id %>
+  <%= form.text_field :id %>
+  <%= form.submit "submit" %>
+<% end %>
+
+<% if @return != nil %>
+  <% @photo_urls.each do |photo_url| %>
+    <img src="<%= photo_url %>" width="15%" />
+  <% end %>
+<% end %>

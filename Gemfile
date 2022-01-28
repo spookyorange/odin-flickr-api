@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'flickraw', '~> 0.9.10'
+gem 'flickr', '~> 2.0', '>= 2.0.2'
 gem 'figaro', '~> 1.2'
 
 # Use Active Storage variant
